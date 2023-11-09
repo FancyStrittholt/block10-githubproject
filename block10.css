@@ -162,3 +162,34 @@ h3 {
 li {
   font-size: 25px;
 }
+
+.form {
+  color: aliceblue;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+h4 {
+  font-size: 40px;
+  color: #ff5bff;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  color: #2ac9f9;
+}
+
+input {
+  line-height: 26px;
+  background-color: #f1b1f1;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+#submit {
+  width: 300px;
+  height: 40px;
+  background-color: #49056b;
+}

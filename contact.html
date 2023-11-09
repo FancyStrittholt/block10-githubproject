@@ -3,35 +3,41 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home</title>
+        <title>Contact</title>
         <link rel="stylesheet" href="block10.css" />
         <script src="javascript.js"></script>
     </head>
     <body>
         <header class="header" id="myHeader">
-            <h1>Fancy's Chill Spot</h1>
+            <h1>My Portfolio</h1>
             <a href="home.html">Home</a>
             <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="portfolio.html">Porfolio</a>
             <a href="contact.html">Contact</a>
         </header>
-        <div class="container">
-            <div class="me">
-                <h2 class="title">Fancy Strittholt</h2>
-                <p class="subheading">Developer | Engineer | Designer</p>
-                <p class="description">
-                    I am an aspiring full stack developer, currently attending Fullstack Academy. I have been inspired
-                    by my amazing boyfriend who is always teaching me things related to software development. I hope to
-                    some day get a job in this career field and become full time software engineer. I'm also interested
-                    in game development.
-                </p>
-            </div>
+        <div class="form container">
+            <form action="./submit.html">
+                <h4>Contact Me</h4>
+                <div class="form-content">
+                    <div>
+                        <label for="First Name">First Name:</label>
+                        <input type="text" name="Name" placeholder="First name" height="500 " />
+                    </div>
+                    <div>
+                        <label for="Last Name">Last Name:</label>
+                        <input type="text" name="Name" placeholder="Last Name" />
+                    </div>
 
-            <img
-                src="https://storage.googleapis.com/pai-images/83eec758c0b047008820b7219bb8bb97.jpeg"
-                class="myphoto"
-            />
+                    <div>
+                        <label for="Email">Email Address:</label>
+                        <input type="text" Email="Email Address" placeholder="Email Address" />
+                    </div>
+                    <br />
+                    <input type="submit" id="submit" value="Submit" />
+                </div>
+            </form>
         </div>
+
         <footer class="footer" id="myFooter">
             <a href="https://fancyschillspot.com/" target="_blank" class="icon">
                 <img
