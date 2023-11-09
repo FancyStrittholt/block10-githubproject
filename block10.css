@@ -1,13 +1,20 @@
 .header {
   background-image: url(https://www.shutterstock.com/image-photo/neon-light-on-brick-wall-260nw-1850014774.jpg);
-  color: aqua;
+  color: #2ac9f9;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+h1 {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 a {
-  color: aqua;
+  color: #bf4bf8;
+  font-size: 20px;
 }
 
 html,
@@ -24,7 +31,7 @@ body {
 }
 
 .myphoto {
-  height: 300px;
+  height: 450px;
 }
 
 .container {
@@ -40,13 +47,13 @@ body {
 }
 
 .subheading {
-  color: rgb(179, 179, 179);
+  color: #bf4bf8;
   font-size: 27px;
   margin-top: 0px;
 }
 
 .description {
-  color: rgb(179, 179, 179);
+  color: #2ac9f9;
   font-size: 18px;
   margin-top: 0px;
 }
@@ -58,20 +65,23 @@ body {
 
 .card {
   color: rgb(39, 39, 39);
-  background-color: rgb(87, 161, 137);
-  border: 1px solid rgb(228, 120, 250);
-  border-radius: 5%;
-  width: 300px;
+  background-color: #bf4bf8;
+  border: 3px solid #2ac9f9;
+  border-radius: 7%;
+  width: 350px;
+  height: 200px;
   margin-left: 30px;
+  font-size: 20px;
 }
 
 .card:hover {
-  background-color: rgb(63, 117, 100);
+  background-color: #2ac9f9;
+  border: 3px solid #bf4bf8;
 }
 
 .card-header {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 0px;
 }
 
@@ -90,9 +100,11 @@ body {
 
 .layout {
   display: grid;
-  gap: 100px;
+  gap: 50px;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .footer {
@@ -101,4 +113,12 @@ body {
   text-align: center;
   padding-top: 10px;
   flex-shrink: 0;
+}
+
+.icon {
+  margin-right: 30px;
+}
+
+h3 {
+  margin-top: 10px;
 }
