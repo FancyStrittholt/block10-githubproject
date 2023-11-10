@@ -54,7 +54,7 @@ body {
 
 .description {
   color: #2ac9f9;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 0px;
 }
 
@@ -192,4 +192,6 @@ input {
   width: 300px;
   height: 40px;
   background-color: #49056b;
+  color: aliceblue;
+  font-size: 24px;
 }
