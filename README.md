@@ -13,7 +13,7 @@ The sticky header and footer is useful in continuous view of links at the bottom
 
 I added a form on the Contact page so that people could enter their information and get a response, via email.
 
-I wanted the look and feel of the portfolio to match my personality.  I feel like the color schemes and images relate well.  I also added links to my github, linked in and another portfolio that I had made previous from a template. 
+I wanted the look and feel of the portfolio to match my personality.  I feel like the color schemes and images relate well.  I also added links to my github, linkedin and another portfolio that I had made previous from a template. 
 
 
    
