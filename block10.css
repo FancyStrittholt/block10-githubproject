@@ -12,6 +12,7 @@ h1 {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
 a {
   color: #bf4bf8;
   font-size: 20px;
@@ -116,7 +117,8 @@ body {
 }
 
 .icon {
-  margin-right: 30px;
+  margin-right: 25px;
+  text-decoration: none;
 }
 
 h3 {
