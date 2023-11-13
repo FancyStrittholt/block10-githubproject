@@ -142,15 +142,15 @@ h3 {
   margin-right: 30px;
   font-size: 20px;
   width: 50%;
-  margin-bottom: 10px;
-  margin-top: 25px;
+  margin-bottom: 9px;
+  margin-top: 9px;
 }
 
 .project-layout {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 .paragraph {
