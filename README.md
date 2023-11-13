@@ -15,5 +15,12 @@ I added a form on the Contact page so that people could enter their information 
 
 I wanted the look and feel of the portfolio to match my personality.  I feel like the color schemes and images relate well.  I also added links to my github, linkedin and another portfolio that I had made previous from a template. 
 
+## The different pages
+- The home page is a landing spot.  An introduction to Fancy.
+- About me page has more information about me.  I separated the infomation into cards and added some hover effects in css.
+- The Portfolio page has some placeholders for upcoming projects since I didn't have any projects to share.
+- Contact me is pretty straight forward.  I have a form on there to submit a message along with some information for a contact back.
+- The Submit page is a little extra bit.  Instead of it having a blank message, I added a little css to make it match the rest of the site.  Also, allowing you to go back to the other pages from there with the header and footer.  
+
 
    
